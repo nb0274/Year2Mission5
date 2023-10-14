@@ -50,9 +50,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
          */
         @Override
         public void onClick(DialogInterface dialog, int which) {
-            // Apply button
             if(which == DialogInterface.BUTTON_POSITIVE) {
-                // Saves the data of the series
+            
                 if(dialogGeometrical.isChecked())
                     mathmaticalOrGeometric = "geometric";
                 if(dialogMathmatical.isChecked())
